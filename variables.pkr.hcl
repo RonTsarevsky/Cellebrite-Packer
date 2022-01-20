@@ -15,13 +15,13 @@ variable "use_azure_cli_auth" {
 // variable "subscriptionId" {
 //   type      = string
 //   sensitive = true
-//   default   = "1e4781cf-929f-4a42-9ffd-92aa4bec6efc"
+//   default   = ""
 // }
 // variable "tenantId" {
 //   type      = string
 //   sensitive = true
-//   default   = "590eeb7a-e0a0-4c00-b830-8fafaf44049b"
-}
+//   default   = ""
+// }
 variable "baseIMGOS" {
   type      = string
   default   = "Windows"
