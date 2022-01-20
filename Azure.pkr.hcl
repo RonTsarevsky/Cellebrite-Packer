@@ -2,11 +2,7 @@ locals {
   imgName = join("-", [var.imgName, var.imgVersion])
 }
 source "azure-arm" "GoldenIMG" {
-  // client_id                         = var.clientId
-  // client_secret                     = var.clientSecret
   use_azure_cli_auth                = var.use_azure_cli_auth
-  // subscription_id                   = var.subscriptionId
-  // tenant_id                         = var.tenantId
   os_type                           = var.baseIMGOS
   image_publisher                   = var.baseIMGPublisher
   image_offer                       = var.baseIMGOffer
