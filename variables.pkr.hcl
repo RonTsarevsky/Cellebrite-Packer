@@ -15,7 +15,7 @@ variable "use_azure_cli_auth" {
  variable "subscriptionId" {
    type      = string
    sensitive = true
-   default   = "1e4781cf-929f-4a42-9ffd-92aa4bec6efc"
+   default   = "51693fff-9399-4139-9c8e-57c93f889896"
  }
 // variable "tenantId" {
 //   type      = string
@@ -52,7 +52,7 @@ variable "vmName" {
 }
 variable "rgName" {
   type      = string
-  default   = "GoldenIMGs"
+  default   = "GalTestBatch"
 }
 variable "galleryName" {
   type      = string
