@@ -12,11 +12,11 @@ variable "use_azure_cli_auth" {
   type      = bool
   default   = true
 }
-// variable "subscriptionId" {
-//   type      = string
-//   sensitive = true
-//   default   = ""
-// }
+ variable "subscriptionId" {
+   type      = string
+   sensitive = true
+   default   = "1e4781cf-929f-4a42-9ffd-92aa4bec6efc"
+ }
 // variable "tenantId" {
 //   type      = string
 //   sensitive = true
